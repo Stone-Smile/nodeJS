@@ -1,0 +1,8 @@
+1.在node中除了代码，所有一切都是并行执行的。
+eg: 在requestHandler.js中的start中模拟10s延迟，upload也会延迟10s
+nodeJS是单线程的，可以在不新增额外线程的情况下，依然可以对任务进行并行处理（这点类似js）
+通过事件轮询（event loop）实现并行操作
+
+2.node处理post/get
+3.用nodeJS处理外部模块
+4.用nodeJS处理文件上传
